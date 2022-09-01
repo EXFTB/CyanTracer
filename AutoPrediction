@@ -29,8 +29,8 @@ local Settings = {
 
 --//DO NOT EDIT ANYTHING UNDER THIS UNLESS YOU KNOW WHAT YOU'RE DOING.//--
 
-local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
-local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
+local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/EXFTB/UI/main/main/STX/Module.Lua"))()
+local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/EXFTB/UI-main/main/STX/Client.Lua"))()
 local CurrentCamera = game:GetService("Workspace").CurrentCamera
 local Inset = game:GetService("GuiService"):GetGuiInset().Y
 local RunService = game:GetService("RunService")
@@ -211,8 +211,8 @@ Settings.AimLock.Prediction = 0.125
     end
 end          
             
-local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
-local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
+local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/EXFTB/UI/main/main/STX/Module.Lua"))()
+local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/EXFTB/UI-main/main/STX/Client.Lua"))()
     Notification:Notify(
     {Title = "Predict.Ware", Description = "Loaded, Prediction: "..  Settings.AimLock.Prediction},
     {OutlineColor = Color3.fromRGB(0, 255, 171),Time = 3, Type = "default"}
